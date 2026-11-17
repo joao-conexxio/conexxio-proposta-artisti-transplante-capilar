@@ -1,0 +1,305 @@
+{
+  "slug": "artisti-transplante-capilar",
+  "negocio": {
+    "nome": "Artisti Transplante Capilar",
+    "logo": "brand/logo.png",
+    "whatsapp": "5548992078764",
+    "funcionamento": {
+      "seg": "10:00-18:00",
+      "ter": "10:00-18:00",
+      "qua": "10:00-18:00",
+      "qui": "10:00-18:00",
+      "sex": "10:00-18:00",
+      "sab": null,
+      "dom": null
+    },
+    "unidades": [
+      {
+        "bairro": "Florianópolis · Santa Mônica",
+        "endereco": "R. Prof. Paulo Roberto Martins, 245 – Santa Mônica, Florianópolis – SC, 88035-240",
+        "telefone": "(48) 99207-8764",
+        "horario": "Segunda a sexta, 10h às 18h"
+      },
+      {
+        "bairro": "Balneário Camboriú · Pioneiros",
+        "endereco": "Rua Miguel Matte, 687, sala 1002 – Pioneiros, Balneário Camboriú – SC, 88331-030"
+      },
+      {
+        "bairro": "Blumenau · Centro",
+        "endereco": "Rua Prefeito Frederico Busch Jr., 124, Edifício Ciso, 5º andar – Blumenau – SC, 89020-400"
+      },
+      {
+        "bairro": "São Paulo · Jardim Paulista",
+        "endereco": "Av. Nove de Julho, 3218 – Jardim Paulista, São Paulo – SP, 01406-000"
+      }
+    ]
+  },
+  "marca": {
+    "brand": "#0E2A4A",
+    "brand2": "#07192D",
+    "ink": "#141C26",
+    "bg": "#FFFFFF",
+    "pulse": "#E3AC55",
+    "radius": "6px",
+    "registro": "editorial",
+    "fontDisplay": "Montserrat",
+    "fontBody": "Inter",
+    "tomHero": "escuro",
+    "tomCorpo": "claro"
+  },
+  "secoes": [
+    {
+      "id": "header",
+      "variant": "sticky-cta",
+      "data": {
+        "links": [
+          {
+            "texto": "Acompanhamento",
+            "href": "#acompanhamento"
+          },
+          {
+            "texto": "Tratamentos",
+            "href": "#tratamentos"
+          },
+          {
+            "texto": "Avaliações",
+            "href": "#depoimentos"
+          },
+          {
+            "texto": "Clínicas",
+            "href": "#unidades"
+          }
+        ]
+      }
+    },
+    {
+      "id": "hero",
+      "variant": "moldura",
+      "data": {
+        "eyebrow": "FUE · Florianópolis",
+        "h1": "Cabelo novo, fio a fio",
+        "lead": "Transplante FUE com anestesia local e sem cicatriz linear na nuca. Depois da cirurgia, um ano de retornos já marcados com a mesma equipe.",
+        "cta": "Agendar avaliação",
+        "ctaSecundario": "Como é o acompanhamento",
+        "ctaSecundarioHref": "#acompanhamento",
+        "imagem": "midia/cirurgia.jpg",
+        "imagemAlt": "Cirurgião da Artisti com lupa de aumento e touca durante um transplante capilar",
+        "tarja": [
+          "5,0 no Google, 274 avaliações",
+          "Mais de 2.000 pacientes",
+          "Retornos programados por 12 meses",
+          "Floripa, Balneário, Blumenau e São Paulo"
+        ],
+        "selo": "Transplante capilar · Artisti · Floripa ·"
+      }
+    },
+    {
+      "id": "fita",
+      "variant": "inclinada",
+      "data": {
+        "itens": [
+          "Transplante FUE",
+          "Microinfusão de medicamentos",
+          "Laser capilar",
+          "Tricologia",
+          "Avaliação online",
+          "Transfer do aeroporto"
+        ]
+      }
+    },
+    {
+      "custom": "blocos/acompanhamento.html"
+    },
+    {
+      "id": "manifesto",
+      "variant": "faixa",
+      "data": {
+        "eyebrow": "A Artisti",
+        "citacao": "Um transplante bom não chama atenção. Parece que o cabelo sempre esteve ali.",
+        "texto": [
+          "A Artisti é uma clínica dedicada só ao cabelo: transplante e tratamentos capilares.",
+          "Cada folículo é retirado um a um da área doadora e reposicionado na direção em que o fio nasceria. É trabalho de horas, feito com lupa de aumento, para que o resultado passe despercebido."
+        ]
+      }
+    },
+    {
+      "id": "tratamentos",
+      "variant": "pilha",
+      "data": {
+        "titulo": "Nem todo caso é cirúrgico",
+        "lead": "A avaliação diz se o caminho é o transplante, um tratamento clínico ou os dois juntos.",
+        "itens": [
+          {
+            "nome": "Transplante capilar FUE",
+            "descricao": "Extração das unidades foliculares, uma a uma, da nuca e das laterais para as áreas sem cabelo. Sem corte em faixa e sem cicatriz linear. Indicado para homens com calvície e mulheres com alopecia.",
+            "icone": "mao"
+          },
+          {
+            "nome": "MMP",
+            "descricao": "Microinfusão de medicamentos direto no couro cabeludo, para estimular os fios que ainda existem.",
+            "icone": "seringa"
+          },
+          {
+            "nome": "Laser capilar",
+            "descricao": "Fototerapia de baixa intensidade que estimula o crescimento, sem agulha e sem afastamento.",
+            "icone": "laser"
+          },
+          {
+            "nome": "Tricologia",
+            "descricao": "Investigação da queda e dos problemas do couro cabeludo, antes de decidir qualquer procedimento.",
+            "icone": "microscopio"
+          }
+        ]
+      }
+    },
+    {
+      "id": "conversa",
+      "variant": "celular",
+      "data": {
+        "eyebrow": "Para quem vem de fora",
+        "titulo": "Dá para começar sem sair de casa",
+        "lead": "Boa parte dos pacientes não mora em Florianópolis. A primeira avaliação pode ser online, e a recepção organiza o resto pelo WhatsApp.",
+        "cta": "Falar com a recepção",
+        "contato": "Artisti Transplante Capilar",
+        "mensagens": [
+          {
+            "de": "paciente",
+            "texto": "Oi! Moro em Curitiba. Dá pra fazer a avaliação sem ir até aí?"
+          },
+          {
+            "de": "clinica",
+            "texto": "Dá sim! A primeira avaliação pode ser online. Se o transplante for indicado, a cirurgia é aqui em Florianópolis."
+          },
+          {
+            "de": "paciente",
+            "texto": "E no dia, como faço do aeroporto até a clínica?"
+          },
+          {
+            "de": "clinica",
+            "texto": "A gente busca e leva de volta. E depois da cirurgia os retornos já ficam marcados para os próximos 12 meses."
+          },
+          {
+            "de": "paciente",
+            "texto": "Perfeito. Quero marcar a avaliação."
+          }
+        ]
+      }
+    },
+    {
+      "id": "numeros",
+      "variant": "vivo",
+      "data": {
+        "titulo": "Em números",
+        "itens": [
+          {
+            "valor": "5,0",
+            "rotulo": "de nota no Google"
+          },
+          {
+            "valor": "274",
+            "rotulo": "avaliações, todas com 5 estrelas",
+            "contar": 274
+          },
+          {
+            "valor": "+2.000",
+            "rotulo": "pacientes atendidos"
+          },
+          {
+            "valor": "+36 mi",
+            "rotulo": "de fios transplantados"
+          }
+        ]
+      }
+    },
+    {
+      "id": "depoimentos",
+      "variant": "citacoes",
+      "data": {
+        "titulo": "O que os pacientes contam",
+        "itens": [
+          {
+            "texto": "Tanto no pré como no pós-operatório, os doutores estão sempre disponíveis para esclarecimentos. Você tem contato direto com eles. Até meu pai, que tinha receio, agendou o transplante dele.",
+            "autor": "Marx P.",
+            "contexto": "Paciente de transplante"
+          },
+          {
+            "texto": "Teve transfer na ida e na volta ao aeroporto. Na clínica, o médico discutiu as opções de tratamento comigo e na cirurgia correu tudo certinho. A enfermagem foi muito atenciosa.",
+            "autor": "Vinicius V.",
+            "contexto": "Paciente de outra cidade"
+          },
+          {
+            "texto": "Depois das avaliações presencial e online, agendaram outro atendimento só para esclarecer dúvidas. Há retornos programados nos próximos 12 meses. Agora é esperar o cabelo crescer.",
+            "autor": "Lucas B.",
+            "contexto": "Cinco dias após a cirurgia"
+          }
+        ]
+      }
+    },
+    {
+      "id": "faq",
+      "variant": "acordeao",
+      "data": {
+        "titulo": "Perguntas antes de marcar",
+        "itens": [
+          {
+            "p": "O transplante dói?",
+            "r": "É feito com anestesia local. O incômodo fica na aplicação da anestesia; durante o procedimento o paciente fica acordado e tranquilo."
+          },
+          {
+            "p": "Fica cicatriz?",
+            "r": "Na técnica FUE os folículos saem um a um, sem retirar uma faixa de pele. Por isso não fica a cicatriz linear na nuca da técnica antiga."
+          },
+          {
+            "p": "Quanto tempo leva a cirurgia?",
+            "r": "Algumas horas, a depender da área a cobrir. O tempo estimado do seu caso sai na avaliação."
+          },
+          {
+            "p": "Quando vejo o resultado?",
+            "r": "O fio transplantado leva meses para crescer. Por isso os retornos são marcados ao longo de 12 meses."
+          },
+          {
+            "p": "Mulheres podem fazer?",
+            "r": "Sim. O transplante e os tratamentos clínicos também são indicados para mulheres com alopecia e queda intensa, depois da avaliação."
+          }
+        ]
+      }
+    },
+    {
+      "id": "unidades",
+      "variant": "cartoes",
+      "data": {
+        "titulo": "Quatro clínicas, a cirurgia em Florianópolis"
+      }
+    },
+    {
+      "id": "cta-final",
+      "variant": "bloco-cheio",
+      "data": {
+        "h2": "Comece pela avaliação",
+        "lead": "Presencial em uma das quatro clínicas ou online. Mande uma mensagem e a recepção encontra o melhor horário.",
+        "cta": "Agendar pelo WhatsApp"
+      }
+    },
+    {
+      "id": "footer",
+      "variant": "completo",
+      "data": {
+        "links": [
+          {
+            "texto": "Acompanhamento",
+            "href": "#acompanhamento"
+          },
+          {
+            "texto": "Tratamentos",
+            "href": "#tratamentos"
+          },
+          {
+            "texto": "Clínicas",
+            "href": "#unidades"
+          }
+        ],
+        "aviso": "Artisti Transplante Capilar · Florianópolis, SC. Resultados variam de paciente para paciente; a indicação de cada procedimento é feita na avaliação médica."
+      }
+    }
+  ]
+}

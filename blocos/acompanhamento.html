@@ -1,0 +1,44 @@
+<section class="blk-ano" id="acompanhamento">
+  <div class="wrap">
+    <div class="blk-ano__intro">
+      <p class="blk-ano__eyebrow" data-reveal>Depois da cirurgia</p>
+      <h2 class="blk-ano__titulo" data-reveal>A cirurgia leva um dia. O cuidado vai até o último retorno.</h2>
+      <p class="blk-ano__lead" data-acende>O cabelo transplantado leva meses para aparecer. Nesse tempo você não fica sozinho com as dúvidas: os retornos já saem marcados e a equipe que operou é a mesma que responde no pós.</p>
+    </div>
+    <ol class="blk-ano__linha">
+      <li data-reveal style="--d:0ms">
+        <span class="blk-ano__ic"><!--icone:conversa--></span>
+        <div><strong>Antes</strong><p>Avaliação presencial ou online. Se ficar dúvida, marca-se outra conversa antes de decidir.</p></div>
+      </li>
+      <li data-reveal style="--d:100ms">
+        <span class="blk-ano__ic"><!--icone:seringa--></span>
+        <div><strong>O dia</strong><p>Anestesia local e algumas horas de procedimento. Quem vem de fora tem transfer do aeroporto, na ida e na volta.</p></div>
+      </li>
+      <li data-reveal style="--d:200ms">
+        <span class="blk-ano__ic"><!--icone:check--></span>
+        <div><strong>Primeira semana</strong><p>Cuidados simples em casa, com contato direto com a equipe para cada pergunta.</p></div>
+      </li>
+      <li data-reveal style="--d:300ms">
+        <span class="blk-ano__ic"><!--icone:agenda--></span>
+        <div><strong>Os meses seguintes</strong><p>Retornos programados ao longo de 12 meses, para acompanhar o crescimento de perto.</p></div>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<style>
+.blk-ano{padding-block:var(--sp-section)}
+.blk-ano__eyebrow{margin:0 0 var(--sp-2);font-family:var(--f-body);font-size:var(--t-label);letter-spacing:var(--eyebrow-track);text-transform:uppercase;color:var(--brand)}
+.blk-ano__titulo{margin:0;font-family:var(--f-display);font-size:var(--t-h2);line-height:var(--lh-display);text-wrap:balance;color:var(--ink)}
+.blk-ano__lead{margin:var(--sp-3) 0 var(--sp-4);font-size:1.12rem;line-height:1.65;color:var(--ink);max-width:36rem}
+.blk-ano__linha{list-style:none;margin:0;padding:0;display:grid;gap:var(--sp-3);position:relative}
+.blk-ano__linha li{display:grid;grid-template-columns:auto 1fr;gap:var(--sp-2);align-items:start;padding-top:var(--sp-2);border-top:1px solid color-mix(in srgb,var(--ink) 16%,transparent)}
+.blk-ano__linha strong{display:block;font-family:var(--f-display);font-size:1.3rem;font-weight:600;color:var(--ink)}
+.blk-ano__linha p{margin:.35rem 0 0;color:color-mix(in srgb,var(--ink) 75%,transparent);line-height:1.6}
+.blk-ano__ic{display:inline-flex;width:2.75rem;height:2.75rem;padding:.6rem;border-radius:50%;background:color-mix(in srgb,var(--pulse) 18%,transparent);color:var(--brand)}
+.blk-ano__ic svg{width:100%;height:100%}
+@media (min-width:900px){
+  .blk-ano .wrap{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);gap:var(--sp-6);align-items:start}
+  .blk-ano__intro{position:sticky;top:7rem}
+}
+</style>
